@@ -1,0 +1,1 @@
+hive -e 'select * from flights_filtered' | sed 's/[\t]/,/g' > /home/cloudera/Aviation_Data_Analysis/Datasets/flights_filtered.csv

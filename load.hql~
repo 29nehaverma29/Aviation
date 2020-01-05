@@ -1,0 +1,5 @@
+LOAD DATA LOCAL INPATH '/home/cloudera/Aviation_Data_Analysis/Datasets/airlines.csv' into TABLE Aviation.Airlines;
+
+LOAD DATA LOCAL INPATH '/home/cloudera/Aviation_Data_Analysis/Datasets/airports.csv' into TABLE Aviation.Airports;
+
+LOAD DATA LOCAL INPATH '/home/cloudera/Aviation_Data_Analysis/Datasets/flights.csv' into TABLE Aviation.Flights;

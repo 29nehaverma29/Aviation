@@ -1,0 +1,22 @@
+table columns
+year                	string              	                    
+month               	string              	                    
+flight_number       	string              	                    
+origin_airport      	string              	                    
+destination_airport 	string              	                    
+cancelled           	string              	                    
+cancellation_reason 	string              	                    
+arrival_delay       	string              	                    
+diverted            	string 
+
+1. Which month have seen the most number of cancellation due to bad weather?
+CANCELLED =1, 
+CANCELLATION_REASON ='B'
+
+2. Top 10 route(origin and dest) that has seen maximum diversions?
+DIVERTED =1
+
+3. Top 5 visited destination.
+
+
+           

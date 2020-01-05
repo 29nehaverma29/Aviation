@@ -1,0 +1,7 @@
+create external table Aviation.flights_filtered
+YEAR string,
+MONTH string,
+FLIGHT_NUMBER  string, ORIGIN_AIRPORT string, ORIGIN_AIRPORT string,
+DESTINATION_AIRPORT string,CANCELLED string, CANCELLATION_REASON string,ARRIVAL_DELAY string,
+DIVERTED string
+

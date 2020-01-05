@@ -1,0 +1,43 @@
+create database if not exists Aviation location '/user/data/hive/Aviation.db';
+
+use Aviation;
+
+create external table Aviation.flights
+(YEAR string,
+MONTH string,
+DAY string,
+DAY_OF_WEEK string,
+AIRLINE string,
+FLIGHT_NUMBER string,
+TAIL_NUMBER string,
+ORIGIN_AIRPORT string,
+DESTINATION_AIRPORT string,
+SCHEDULED_DEPARTURE string,
+DEPARTURE_TIME string,
+DEPARTURE_DELAY string,
+TAXI_OUT string,
+WHEELS_OFF string,
+SCHEDULED_TIME string,
+ELAPSED_TIME string,
+AIR_TIME string,
+DISTANCE string,
+WHEELS_ON string,
+TAXI_IN string,
+SCHEDULED_ARRIVAL string,
+ARRIVAL_TIME string,
+ARRIVAL_DELAY string,
+DIVERTED string,
+CANCELLED string,
+CANCELLATION_REASON string,
+AIR_SYSTEM_DELAY string,
+SECURITY_DELAY string,
+AIRLINE_DELAY string,
+LATE_AIRCRAFT_DELAY string,
+WEATHER_DELAY string)
+row format delimited
+fields terminated by ','
+location '/user/data/hive/Aviation.db/flights';
+
+
+
+
